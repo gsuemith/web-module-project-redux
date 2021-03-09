@@ -14,3 +14,14 @@ const initialState = {
     { id: 4, name: 'Rear spoiler', price: 250 }
   ]
 };
+
+export default (state = initialState, { type, payload }) => {
+  switch (type) {
+
+  // case typeName:
+  //   return { ...state, ...payload }
+
+  default:
+    return state
+  }
+}
